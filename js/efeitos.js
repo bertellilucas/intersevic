@@ -8,4 +8,7 @@ $(document).ready(function(){
       $(".aparecendo").toggle();
     });
 
+$('.parallax-window').parallax({imageSrc: '../imagens/notebook.jpg'});
+
+
 });

@@ -25,6 +25,14 @@ li a {
 }
 
 li a:hover{
+color: #000000;
+transition: 0.5s;
+}
+
+ .color_icone:hover{
+color: #8B7D7B;
+transition: 0.2s;
+text-decoration: none;
 
 }
 
@@ -51,7 +59,7 @@ li a:hover{
 
 #teste{
   background: url("../imagens/cursos_int.jpg") no-repeat 100% /cover;
-  height: 600px;
+  height: 900px;
 }
 
 .corpo{
@@ -69,15 +77,45 @@ li a:hover{
 
 .fonte2{
   font-family: 'Exo', sans-serif;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0);
+}
+
+#mackenzie {
+    border-radius: 25px;
+    background: url("../imagens/mackenzie.png") no-repeat 100% /cover;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
 }
 
 .cursos{
-    background: url("../imagens/cursos_int.jpg") no-repeat 100% /cover;
+    background: url("../imagens/cursos2.jpg") no-repeat 100% /cover;
     height: 300px;
 }
-.rodape{
-    background: url("../imagens/footer.jpeg") no-repeat 100% /cover;
+.cursos{
+    background: url("../imagens/cursos2.jpg") no-repeat 100% /cover;
+    height: 300px;
 }
+.consultoria{
+    background: url("../imagens/consultoria.jpg") no-repeat 100% /cover;
+    height: 300px;
+}
+
+.notebook{
+    background: url("../imagens/notebook.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    height: 400px;
+}
+
+/* .content-site{
+  padding-top: 150px;
+  padding-bottom: 150px;
+} */
 
 .link{
   color: white;
@@ -91,4 +129,12 @@ li a:hover{
 
 .fundo{
   background-color: rgb(225,225,221);
+}
+
+div.rodape{
+    background: -moz-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+    background: -webkit-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+    background: linear-gradient(to right, #000 5%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/100%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=1 ),url(../images/bigdata.jpg) no-repeat right/70%;
+    font-family: 'Exo', sans-serif;
 }
